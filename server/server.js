@@ -8,7 +8,7 @@ const path = require('path');
 const { authMiddleware } = require('./utils/auth');
 
 //* Grab the typeDefs and resolvers from the schemas
-//const { typeDefs, resolvers } = require('.schemas');
+const { typeDefs, resolvers } = require('.schemas');
 const db = require('./config/connection');
 
 //? Don't think I will need routes when I finish ?
