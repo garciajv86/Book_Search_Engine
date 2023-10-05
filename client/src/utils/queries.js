@@ -1,4 +1,4 @@
-const { gql } = require('@apollo/client');
+import { gql } from '@apollo/client';
 
 //* The GET_ME query that should match the me query on the server side
 const GET_ME = gql`
@@ -20,4 +20,4 @@ const GET_ME = gql`
   }
 `;
 
-module.export = { GET_ME };
+export { GET_ME };
